@@ -1,0 +1,168 @@
+C++ Codes on Functions 
+Example 1: Function to Add 
+Two Numbers 
+#include <iostream> 
+using namespace std; 
+// Function declaration 
+(prototype) 
+int add(int a, int b); 
+int main()  
+{ 
+int x = 5, y = 3; 
+cout << "Sum: " << add(x, y) 
+<< endl; 
+return 0; 
+} 
+// Function definition 
+int add(int a, int b)  
+{ 
+} 
+return a + b; 
+Example 2: Void Function 
+(No Return) 
+#include <iostream> 
+using namespace std; 
+void greet(string name)  
+{ 
+cout << "Hello, " << name 
+<< "!" << endl; 
+} 
+int main()  
+{ 
+} 
+greet("Peter"); 
+return 0; 
+Example 3: Function with 
+Default Parameters 
+#include <iostream> 
+using namespace std; 
+void displayMessage(string msg 
+= "Welcome to C++ 
+Programming!")  
+{ 
+cout << msg << endl; 
+} 
+int main()  
+{ 
+displayMessage();               
+uses default 
+// 
+displayMessage("Goodbye!");     
+// custom message 
+return 0; 
+} 
+int main()  
+Example 4: Function That 
+Returns Nothing (void) and 
+Takes No Parameters 
+#include <iostream> 
+using namespace std; 
+void sayHello()  
+{ 
+cout << "Hello, world!" << 
+endl; 
+} 
+int main()  
+{ 
+} 
+sayHello(); 
+return 0; 
+Example 5: Function 
+Overloading 
+#include <iostream> 
+using namespace std; 
+int add(int a, int b)  
+{ 
+return a + b; 
+} 
+double add(double a, double b)  
+{ 
+return a + b; 
+} 
+{ 
+cout << "Int add: " << add(2, 
+3) << endl; 
+cout << "Double add: " << 
+add(2.5, 3.8) << endl; 
+return 0; 
+} 
+Function with Parameters 
+and Return Value 
+#include <iostream> 
+using namespace std; 
+int multiply(int a, int b)  
+{ 
+return a * b; 
+} 
+int main() 
+{ 
+int result = multiply(4, 5); 
+cout << "Product: " << result 
+<< endl; 
+return 0; 
+} 
+} 
+Void Function (No Return 
+Value) 
+#include <iostream> 
+using namespace std; 
+void greetUser(string name) 
+{ 
+cout << "Welcome, " << 
+name << "!" << endl; 
+} 
+int main() 
+{ 
+greetUser("Alice"); 
+return 0; 
+} 
+Function with Default 
+Parameters 
+#include <iostream> 
+using namespace std; 
+void displayMessage(string 
+message = "Hello from C++!")  
+{ 
+cout << message << endl; 
+} 
+int main()  
+{ 
+displayMessage();                  
+// uses default message 
+displayMessage("Custom 
+Message");  // overrides default 
+return 0; 
+Function Returning Nothing 
+and Taking No Parameters 
+#include <iostream> 
+using namespace std; 
+void showDate()  
+{ 
+cout << "Today's date is June 
+11, 2025" << endl; 
+} 
+int main() 
+{ 
+showDate(); 
+return 0; 
+} 
+Function Overloading (Same 
+Name, Different Parameters) 
+#include <iostream> 
+using namespace std; 
+int add(int a, int b) 
+{ 
+} 
+return a + b; 
+double add(double a, double b)  
+{ 
+return a + b; 
+} 
+int main() 
+{ 
+cout << "Int sum: " << add(2, 
+3) << endl; 
+cout << "Double sum: " << 
+add(2.5, 3.7) << endl; 
+return 0; 
+]
