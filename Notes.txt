@@ -1,0 +1,4 @@
+Thursday 2nd October
+
+Todays lesson was focused on understanding why and how we use git, as well as how we can collaborate as a group
+on github
